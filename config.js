@@ -38,7 +38,7 @@ global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable W
 global.warncount = process.env.WARN_COUNT || 3,
 global.disablepm = process.env.DISABLE_PM || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES|| "https://telegra.ph/file/fdeb9bdbfae04a6b62dd4.jpg",
+global.userImages= process.env.USER_IMAGES|| "https://telegra.ph/file/e5d83e38ca0b21b7c1c1b.jpg",
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -67,12 +67,12 @@ module.exports = {
   caption : process.env.CAPTION || "©ⁱᵇʳᵃʰⁱᵐ ᵗᵉᶜʰ💥90✴" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
   author : process.env.PACK_AUTHER|| "Ibrahim",
-  packname: process.env.PACK_NAME || "👑",
+  packname: process.env.PACK_NAME || "Podi_Shenu",
   botname : process.env.BOT_NAME  || " 𝗜𝗕𝗥𝗔𝗛𝗜𝗠-ᵐᵈ",
-  ownername:process.env.OWNER_NAME|| "It'x 𝗜𝗕𝗥𝗔𝗛𝗜𝗠",
+  ownername:process.env.OWNER_NAME|| "Podi_Shenu",
 
   sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
-  errorChat : process.env.ERROR_CHAT || "",
+  errorChat : process.env.ERROR_CHAT || "පොඩී ශේනු error",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
